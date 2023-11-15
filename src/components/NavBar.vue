@@ -6,4 +6,6 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <span class="text-brand"> Ciao</span>
+</template>
