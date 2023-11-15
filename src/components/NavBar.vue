@@ -18,8 +18,8 @@ export default {
     <div class="container my-0 mx-auto transition-all duration-150">
       <div class="flex justify-between items-center">
         <img draggable="false" alt="logo" class="w-[150px]" :src="logo" />
-        <menu class="gap-8 items-center hidden lg:flex">
-          <li v-for="navItems in navElements">
+        <menu class="gap-6 items-center hidden lg:flex">
+          <li class="cursor-pointer p-1" v-for="navItems in navElements">
             <a
               :class="navItems.name === 'Home' ? 'selected' : ''"
               class="text-brand uppercase text-[13px] relative whitespace-nowrap other-font"
@@ -27,13 +27,13 @@ export default {
               >{{ navItems.name }}</a
             >
           </li>
-          <li>
-            <font-awesome-icon class="text-brand text-lg" :icon="['fas', 'cart-shopping']" />
+          <li class="ml-3">
+            <font-awesome-icon class="text-brand text-lg cursor-pointer" :icon="['fas', 'cart-shopping']" />
           </li>
         </menu>
         <div class="items-center flex gap-8 lg:hidden">
-          <font-awesome-icon class="text-brand text-lg" :icon="['fas', 'cart-shopping']" />
-          <font-awesome-icon class="text-brand text-lg" :icon="['fas', 'bars']" />
+          <font-awesome-icon class="text-brand text-lg cursor-pointer" :icon="['fas', 'cart-shopping']" />
+          <font-awesome-icon class="text-brand text-lg cursor-pointer" :icon="['fas', 'bars']" />
         </div>
       </div>
     </div>
