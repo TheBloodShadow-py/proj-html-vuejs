@@ -21,15 +21,15 @@ button,
 a,
 i,
 li {
-  color: #f0edf5;
+  color: #787281;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 a,
@@ -39,7 +39,7 @@ i {
   line-height: 1;
 }
 
-header a {
+.other-font {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1.8px;
 }

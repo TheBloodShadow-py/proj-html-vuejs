@@ -10,5 +10,7 @@ export default {
 </script>
 
 <template>
-  <HeroSection />
+  <main>
+    <HeroSection />
+  </main>
 </template>
