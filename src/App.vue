@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar.vue";
 import MainHandler from "./components/MainContent/MainHandler.vue";
 import Footer from "./components/Footer.vue";
 
+import { store } from "./store";
+
 export default {
   components: {
     NavBar,
@@ -10,13 +12,15 @@ export default {
     Footer,
   },
   data() {
-    return {};
+    return {
+      store,
+    };
   },
 };
 </script>
 
 <template>
-  <NavBar />
+  <NavBar :logo="store.logoSrc" :navElements="store.navElements" />
   <MainHandler />
   <Footer />
 </template>

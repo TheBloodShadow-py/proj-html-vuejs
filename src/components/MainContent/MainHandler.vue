@@ -1,5 +1,5 @@
 <script>
-import HeroSection from "./MainSections/HeroSection.vue";
+import HeroSection from "./sections/HeroSection.vue";
 
 export default {
   data() {
