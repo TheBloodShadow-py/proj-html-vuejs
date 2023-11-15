@@ -38,12 +38,12 @@ export const store = reactive({
   ],
   landingProducts: [
     {
-      src: "/choco-chip-cookies-803x1024.jpg",
+      src: "/choco-chip-cookies-800x1020.jpg",
       alt: "choco chip cookies",
       prices: "$19.00 - $39.00",
     },
     {
-      src: "/strawberry-jam-cookies-803x1024.jpg",
+      src: "/strawberry-jam-cookies-800x1020.jpg",
       alt: "strawberry jam cookies",
       prices: "$24.00 - $62.00",
     },
@@ -58,9 +58,19 @@ export const store = reactive({
       prices: "$18.00 - $52.00",
     },
     {
-      src: "/cookies-with-ice-cream-803x1024.jpg",
+      src: "/cookies-with-ice-cream-800x1020.jpg",
       alt: "cookies with ice cream",
       prices: "$21.00 - $44.00",
+    },
+    {
+      src: "/blackberry-stuffed-bread-800x1020.jpg",
+      alt: "blackberry stuffed bread",
+      prices: "$14.00 - $24.00",
+    },
+    {
+      src: "/cherry-cake-800x1020.jpg",
+      alt: "cherry cake",
+      prices: "$44.00 - $61.00",
     },
   ],
 });
