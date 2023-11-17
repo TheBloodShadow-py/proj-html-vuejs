@@ -33,7 +33,7 @@ export default {
     <PageLoader v-if="loading" @wheel.prevent @touchmove.prevent @scroll.prevent />
   </Transition>
   <NavBar :logo="store.logoSrc" :navElements="store.navElements" />
-  <MainHandler />
+  <MainHandler v-show="!loading" />
   <Footer />
 </template>
 

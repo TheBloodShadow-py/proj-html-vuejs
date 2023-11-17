@@ -17,7 +17,7 @@ export default {
   <header class="py-4 px-8 mb-36">
     <div class="container my-0 mx-auto transition-all duration-150">
       <div class="flex justify-between items-center">
-        <img draggable="false" alt="logo" class="w-[150px]" :src="logo" />
+        <img draggable="false" alt="logo" class="w-[150px]" v-once :src="logo" />
         <menu class="gap-6 items-center hidden lg:flex">
           <li class="cursor-pointer p-1" v-for="navItems in navElements">
             <a

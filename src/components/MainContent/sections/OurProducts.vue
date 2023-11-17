@@ -53,7 +53,7 @@ export default {
 </script>
 
 <template>
-  <section class="px-8 py-[150px]">
+  <section class="px-8 py-[160px]">
     <div class="container my-0 mx-auto transition-all duration-150">
       <div class="flex flex-col items-start gap-12 md:justify-between md:flex-row">
         <div class="flex flex-col gap-6 items-start">
@@ -66,26 +66,14 @@ export default {
         <div class="flex gap-2 items-center lg:w-[50%] xl:hidden" @mouseenter="stopAutoIndex()" @mouseleave="startAutoIndex(5000)">
           <figure class="relative drop-shadow-md">
             <font-awesome-icon @click="changeIndex('behind')" class="arrow-left" :icon="['fas', 'chevron-left']" />
-            <img
-              draggable="false"
-              loading="lazy"
-              class="rounded"
-              :alt="store.landingProducts[currentIndex].alt"
-              :src="store.landingProducts[currentIndex].src"
-            />
+            <img draggable="false" class="rounded" :alt="store.landingProducts[currentIndex].alt" :src="store.landingProducts[currentIndex].src" />
             <font-awesome-icon @click="changeIndex('next')" class="arrow-right" :icon="['fas', 'chevron-right']" />
           </figure>
         </div>
         <div class="gap-4 items-center hidden xl:flex w-[55%]" @mouseenter="stopAutoIndex()" @mouseleave="startAutoIndex(5000)">
           <figure class="relative drop-shadow-md">
             <font-awesome-icon @click="changeIndex('behind')" class="arrow-left" :icon="['fas', 'chevron-left']" />
-            <img
-              draggable="false"
-              loading="lazy"
-              class="rounded"
-              :alt="store.landingProducts[currentIndex].alt"
-              :src="store.landingProducts[currentIndex].src"
-            />
+            <img draggable="false" class="rounded" :alt="store.landingProducts[currentIndex].alt" :src="store.landingProducts[currentIndex].src" />
           </figure>
           <figure class="relative drop-shadow-md">
             <img draggable="false" loading="lazy" class="rounded" alt="store.landingProducts[nextIndex].alt" :src="store.landingProducts[nextIndex].src" />
