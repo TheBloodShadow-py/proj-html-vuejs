@@ -4,6 +4,8 @@ import MainHandler from "./components/MainContent/MainHandler.vue";
 import Footer from "./components/Footer.vue";
 
 import PageLoader from "./components/utility/PageLoader.vue";
+import ArrowResetPage from "./components/utility/ArrowResetPage.vue";
+import CustomCursor from "./components/utility/CustomCursor.vue";
 
 import { store } from "./store";
 
@@ -13,6 +15,8 @@ export default {
     MainHandler,
     Footer,
     PageLoader,
+    ArrowResetPage,
+    CustomCursor,
   },
   data() {
     return {
@@ -29,6 +33,8 @@ export default {
 </script>
 
 <template>
+  <ArrowResetPage v-once />
+  <CustomCursor />
   <Transition>
     <PageLoader v-if="loading" @wheel.prevent @touchmove.prevent @scroll.prevent />
   </Transition>

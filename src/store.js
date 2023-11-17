@@ -36,6 +36,36 @@ export const store = reactive({
       link: "#",
     },
   ],
+  footerElements: [
+    {
+      name: "Shop",
+      link: "#",
+    },
+    {
+      name: "About",
+      link: "#",
+    },
+    {
+      name: "Gallery",
+      link: "#",
+    },
+    {
+      name: "Locations",
+      link: "#",
+    },
+    {
+      name: "Journal",
+      link: "#",
+    },
+    {
+      name: "Contact",
+      link: "#",
+    },
+    {
+      name: "Orders",
+      link: "#",
+    },
+  ],
   landingProducts: [
     {
       src: "/choco-chip-cookies-800x1020.jpg",
