@@ -14,8 +14,8 @@ export default {
         <h2 class="text-brand text-center select-text text-3xl font-bold max-w-[490px] md:max-w-[700px] lg:max-w-[490px] mb-7">Backing Special Moments</h2>
       </div>
       <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap:12 grid-rows-1 xl:gap-20">
-        <img class="rounded drop-shadow-md" src="/corporate-bg.jpg" />
-        <img class="rounded drop-shadow-md" src="/wedding-bg.jpg" />
+        <img draggable="false" class="rounded drop-shadow-md" src="/corporate-bg.jpg" />
+        <img draggable="false" class="rounded drop-shadow-md" src="/wedding-bg.jpg" />
       </div>
     </div>
   </section>

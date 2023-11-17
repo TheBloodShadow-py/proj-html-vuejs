@@ -14,7 +14,7 @@ export default {
 <template>
   <div
     @click.prevent="scrollToTop()"
-    class="fixed z-[999] bg-[#474747de] hover:bg-[#6d6b6b] text-white p-4 transition-colors duration-300 rounded-xl cursor-pointer right-14 bottom-8 flex items-center justify-center"
+    class="fixed z-[999] bg-[#47474781] hover:bg-[#6d6b6b] text-white p-4 transition-colors duration-300 rounded-lg cursor-pointer right-14 bottom-8 flex items-center justify-center"
   >
     <font-awesome-icon :icon="['fas', 'angle-up']" />
   </div>

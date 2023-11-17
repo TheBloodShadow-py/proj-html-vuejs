@@ -18,7 +18,7 @@ export default {
       <div class="flex justify-between items-center">
         <div class="flex flex-col gap-12 justify-start">
           <img alt="logo" draggable="false" class="w-[150px]" v-once :src="logoSrc" />
-          <menu class="flex items-center gap-12 mb-14">
+          <menu class="flex items-center gap-x-12 gap-y-6 mb-14 flex-wrap">
             <li class="text-base text-brand" v-for="elem in store.footerElements">
               <a :href="elem.link"> {{ elem.name }}</a>
             </li>
