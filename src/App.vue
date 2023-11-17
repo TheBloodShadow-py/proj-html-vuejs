@@ -2,7 +2,7 @@
 import NavBar from "./components/NavBar.vue";
 import MainHandler from "./components/MainContent/MainHandler.vue";
 import Footer from "./components/Footer.vue";
-
+//
 import PageLoader from "./components/utility/PageLoader.vue";
 import ArrowResetPage from "./components/utility/ArrowResetPage.vue";
 import CustomCursor from "./components/utility/CustomCursor.vue";
