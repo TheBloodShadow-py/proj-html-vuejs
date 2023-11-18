@@ -77,6 +77,7 @@ export default {
           <span class="text-base max-w-[350px]"
             >Integer a nibh vitae ex porttitor tutrum et ut velit. Etiam ac felis at leo feugiat placerat. Sed ac nulla id orci temport convallis sed.</span
           >
+          <Button :isLightButton="false" :buttonText="'Shop All Products'" />
         </div>
         <div class="col-span-4 xl:col-span-5">
           <div class="flex gap-4 flex-col items-center lg:w-[50%] md:hidden" @mouseenter="stopAutoIndex()" @mouseleave="startAutoIndex(5000)">
