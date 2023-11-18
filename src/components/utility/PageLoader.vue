@@ -7,12 +7,20 @@ export default {
 </script>
 
 <template>
-  <div role="loader" class="fixed top-0 left-0 w-full h-full bg-violet-100 z-[999] flex items-center justify-center">
-    <span class="loader"></span>
+  <div role="loader" class="fixed top-0 left-0 w-full h-full bg-violet-100 z-[999]">
+    <div class="container-load">
+      <span class="loader"></span>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.container-load {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
 .loader {
   width: 16px;
   height: 16px;
