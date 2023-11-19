@@ -18,7 +18,7 @@ export default {
 .container-load {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 47.5%;
   transform: translate(-50%, -50%);
 }
 .loader {
